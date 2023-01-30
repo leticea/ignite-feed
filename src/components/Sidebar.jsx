@@ -1,3 +1,5 @@
+import { Pen, PencilLine } from "phosphor-react";
+
 import styles from "./Sidebar.module.css";
 
 export function Sidebar() {
@@ -12,13 +14,14 @@ export function Sidebar() {
         <img className={styles.avatar} src="https://github.com/leticea.png" />
 
 
-        <strong>Letícia Mangueira</strong>
+        <strong>Letícia Nascimento</strong>
         <span>Web Developer</span>
       </div>
 
 
       <footer>
         <a href="#">
+          <PencilLine />
           Editar seu perfil
         </a>
       </footer>

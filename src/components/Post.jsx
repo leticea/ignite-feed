@@ -1,9 +1,9 @@
-import { format, formatDistanceToNow } from "date-fns";
-import ptBR from "date-fns/locale/pt-BR";
 import { useState } from "react";
-
 import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
+
+import { format, formatDistanceToNow } from "date-fns";
+import ptBR from "date-fns/locale/pt-BR";
 
 import styles from "./Post.module.css";
 
@@ -57,7 +57,6 @@ export function Post({ author, publishedAt, content }) {
             <span>{author.role}</span>
           </div>
         </div>
-
         <time
           title={publishedDateFormatted}
           dateTime={publishedAt.toISOString()}
@@ -65,7 +64,6 @@ export function Post({ author, publishedAt, content }) {
           {publishedDateRelativeToNow}
         </time>
       </header>
-
       <div className={styles.content}>
         {content.map((line) => {
           if (line.type === "paragraph") {
@@ -79,10 +77,8 @@ export function Post({ author, publishedAt, content }) {
           }
         })}
       </div>
-
       <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>
-
         <textarea
           name="comment"
           placeholder="Deixe um comentário"
@@ -91,14 +87,12 @@ export function Post({ author, publishedAt, content }) {
           onInvalid={handleNewCommentInvalid}
           required
         />
-
         <footer>
           <button type="submit" disabled={isNewCommentEmpty}>
             Publicar
           </button>
         </footer>
       </form>
-
       <div className={styles.commentList}>
         {comments.map((comment) => {
           return (

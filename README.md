@@ -17,7 +17,9 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Reactjs + Vite](https://vitejs.dev/guide/)
+- [ReactJS + Vite](https://vitejs.dev/guide/)
+- [Phosphor](https://phosphoricons.com/)
+- [date-fns](https://date-fns.org/)
 
 ## 💻 Projeto
 

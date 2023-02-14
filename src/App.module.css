@@ -9,11 +9,12 @@
   align-items: flex-start;
 }
 
+// deixar a tela responsiva, de acordo com a tela de um smartphone
 @media (max-width: 768px) {
   html {
     font-size: 87.5%;
   }
-  
+
   .wrapper {
     grid-template-columns: 1fr;
   }

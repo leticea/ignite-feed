@@ -107,3 +107,5 @@ export function Post({ author, publishedAt, content }) {
     </article>
   );
 }
+
+// {' '} - espaçamento no react

@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="feed" src=".github/image.png">
+  <img alt="" src=".github/image.png">
 </p>
 
 ## Ignite Feed

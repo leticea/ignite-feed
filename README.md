@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto de Frontend de React do Ignite de um feed de postagens.
 
-- Canal da [Rocketseat](https://www.rocketseat.com.br/)
+- Módulo ReactJS do Ignite na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 🚀 Como Rodar
 

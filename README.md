@@ -29,9 +29,9 @@ Projeto de Frontend de React do Ignite de um feed de postagens.
 
 ## 🚀 Como Rodar
 
-- Clone o projeto;
-- Rode npm install (ou yarn install de acordo com a sua configuração);
-- npm run dev (para rodar o projeto na porta indicada);
+- Clone o projeto.
+- Entre na pasta do projeto e rode 'npm install' (use 'yarn install' se for essa a sua configuração).
+- npm run dev (para rodar o projeto na porta indicada).
 
 ## 🤔 Como contribuir
 

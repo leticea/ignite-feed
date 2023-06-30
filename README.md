@@ -11,7 +11,7 @@
   <img alt="" src=".github/image.png">
 </p>
 
-## Ignite Feed
+# Ignite Feed
 
 ## 🚀 Tecnologias
 
@@ -27,7 +27,7 @@ Projeto de Frontend de React do Ignite de um feed de postagens.
 
 - Módulo ReactJS do Ignite na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
-## 🚀 Como Rodar
+## ⚙️ Como Rodar
 
 - Clone o projeto.
 - Entre na pasta do projeto e rode 'npm install' (use 'yarn install' se for essa a sua configuração).
